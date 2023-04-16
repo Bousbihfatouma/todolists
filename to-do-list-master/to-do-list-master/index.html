@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+     crossorigin=""/>
+     <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+     crossorigin=""></script>
+    <title>To Do List</title>
+</head>
+<body>
+    <h1>To Do List</h1>
+    <div class="container">
+        <input id="inputField" type="text"><button id="addToDo">+</button>
+        <div class="to-dos" id="toDoContainer">
+        </div>
+    </div>
+     <div id="map"></div>
+    <script src="main.js"></script>
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+ 
+</body>
+</html>
